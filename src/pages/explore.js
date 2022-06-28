@@ -1,12 +1,14 @@
 import React from "react";
+import CardsExplore from "../components/card-explore";
 import ExploreHome from "../components/explore";
-import Header from "../components/header";
+import HeaderExplore from "../components/header-explore";
 
 export default function Explore() {
   return (
     <div>
-      <Header />
+      <HeaderExplore />
       <ExploreHome />
+      <CardsExplore />
     </div>
   );
 }

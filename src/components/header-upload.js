@@ -1,10 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { removeLogin } from "../redux/slicer";
+import { useSelector } from "react-redux";
 
-export default function Header() {
+export default function HeaderUpload() {
   const token = useSelector((state) => state.login.token);
-  const dispatch = useDispatch();
 
   return (
     <header className="bg-transparent absolute z-30 w-full">
@@ -27,50 +25,6 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="hidden md:block">
-            <nav aria-labelledby="header-navigation">
-              <h2 className="sr-only" id="header-navigation">
-                Header navigation
-              </h2>
-
-              <ul className="flex items-center gap-6 text-sm">
-                <li>
-                  <a
-                    className="text-black transition hover:text-gray-500/75"
-                    href="/"
-                  >
-                    Home
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-black transition hover:text-gray-500/75"
-                    href="/"
-                  >
-                    About
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    className="text-black transition hover:text-gray-500/75"
-                    href="/"
-                  >
-                    Instagram
-                  </a>
-                </li>
-
-                <li>
-                  <NavLink to="/explore">
-                    <p className="text-black transition hover:text-gray-500/75">
-                      Explore
-                    </p>
-                  </NavLink>
-                </li>
-              </ul>
-            </nav>
-          </div>
           {!token ? (
             <div className="flex items-center gap-4">
               <div className="sm:gap-4 sm:flex">
@@ -114,12 +68,22 @@ export default function Header() {
           ) : (
             <div className="flex items-center gap-4">
               <div className="sm:gap-4 sm:flex">
-                <button
-                  className="px-5 py-2.5 text-sm font-medium text-black bg-[#D3A968] rounded-md shadow"
-                  onClick={() => dispatch(removeLogin())}
-                >
-                  Logout
-                </button>
+                <a href="/profile">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-10 w-10"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </a>
               </div>
 
               <div className="block md:hidden">

@@ -17,6 +17,7 @@ export default function Register() {
       alert("Data harus diisi semua");
     } else {
       dispatch(setLogin({ email: email, password: password }));
+      localStorage.setItem("fname", fname);
       alert("Register Berhasil");
     }
   }
@@ -27,7 +28,7 @@ export default function Register() {
         <div className="w-full lg:h-full p-8 bg-[#573503] bg-opacity-40">
           <img
             className="inset-0 object-cover relative w-full h-64 sm:h-96"
-            src="https://s3-alpha-sig.figma.com/img/c584/3ba2/c9de944172fb9d17cc50a9d398970cce?Expires=1656288000&Signature=hj2MUE1YS37koGl8HdL2czRLPfJNXQCruniTfDkU3Pj0gJwTdA84bX9bABRXclIaOcjEz6Sswa1RoPeMOkVaZqr5r8FbPLHjJp7Wf3AIOLM52S~L523lduQNCTDnWhDZiYNfYi6UMK228ycUyzXQMrFCz1loh84swQwhYvMqq4muHUy6Y957SFQuAQHS3mUoXuU8uVhQww-LoDmDNZUGKIN0kga1WYNZ9F6h81gFaOOhn9T1e5uy~~S0Jmib~pW9qltvbFvIenyzsrPmKxx~~oYSc980IaUsSvJx5MhRkyxbpzlI3zwCbIlmzmMKLxjEpSH~wLOePlIHrhgUSgvrwQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            src="/rsrcs/bannerauth.jpg"
             alt=""
           />
           <p className="text-center">
@@ -106,7 +107,7 @@ export default function Register() {
 
               <button
                 type="submit"
-                className="inline-block px-5 py-3 text-sm font-medium text-white bg-blue-500 rounded-lg"
+                className="inline-block px-5 py-3 text-sm font-medium text-black bg-[#B66F04] bg-opacity-[53%] rounded-lg"
               >
                 Register
               </button>
