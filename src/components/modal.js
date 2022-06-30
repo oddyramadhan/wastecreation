@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Popup({ setOpenModal }) {
+  const navigate = useNavigate();
+
   return (
     <div className="fixed inset-0 backdrop-blur-sm bg-white/30 z-50 flex items-center justify-center">
       <div className="p-6 animate-modal mb-0 bg-white space-y-4 w-full sm:w-3/4 md:w-1/3 rounded-3xl shadow-2xl">
@@ -43,6 +46,7 @@ function Popup({ setOpenModal }) {
             className="inline-block w-full py-4 mt-8 text-sm font-bold text-black bg-[#D3A968] rounded-full shadow-xl"
             onClick={() => {
               setOpenModal(false);
+              navigate("/profile");
             }}
           >
             Close

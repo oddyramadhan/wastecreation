@@ -55,7 +55,7 @@ export default function Header() {
                 <li>
                   <a
                     className="text-black transition hover:text-gray-500/75"
-                    href="/"
+                    href="https://www.instagram.com/"
                   >
                     Instagram
                   </a>

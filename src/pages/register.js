@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux/es/exports";
 import { setLogin } from "../redux/slicer";
 
@@ -9,6 +9,7 @@ export default function Register() {
   const [number, setNumber] = useState("");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   function handleFormSubmit(e) {
     e.preventDefault();
@@ -19,6 +20,7 @@ export default function Register() {
       dispatch(setLogin({ email: email, password: password }));
       localStorage.setItem("fname", fname);
       alert("Register Berhasil");
+      navigate("/login");
     }
   }
 
@@ -46,7 +48,7 @@ export default function Register() {
           </div>
 
           <form
-            action=""
+            action="/login"
             onSubmit={handleFormSubmit}
             className="max-w-md mx-auto mt-8 mb-0 space-y-4"
           >

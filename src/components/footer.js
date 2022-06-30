@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -76,15 +77,15 @@ export default function Footer() {
             </div>
 
             <div className="m-auto text-center sm:text-left">
-              <a className="text-lg font-medium text-black" href="/">
-                Blog
-              </a>
+              <NavLink to="/explore/blog">
+                <p className="text-lg font-medium text-black">Blog</p>
+              </NavLink>
             </div>
 
             <div className="m-auto text-center sm:text-left">
-              <a className="text-lg font-medium text-black" href="/explore">
-                Explore
-              </a>
+              <NavLink to="/explore">
+                <p className="text-lg font-medium text-black">Explore</p>
+              </NavLink>
             </div>
           </div>
         </div>

@@ -27,7 +27,7 @@ export default function Tab() {
       <div className="flex text-sm font-medium border-b border-current ">
         {tabs.map((tab, i) => (
           <button
-            class="p-4 px-8 -mb-px border-b border-current hover:text-cyan-500 disabled:text-cyan-500 disabled:border-b-2"
+            className="p-4 px-8 -mb-px border-b border-current hover:text-cyan-500 disabled:text-cyan-500 disabled:border-b-2"
             key={i}
             id={tab.id}
             disabled={currentTab === `${tab.id}`}

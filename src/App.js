@@ -11,6 +11,7 @@ import Upload from "./pages/upload";
 import UploadBlog from "./components/upload-blog";
 import UploadVideo from "./components/upload-video";
 import Profile from "./pages/profile";
+import UserBlogDetail from "./components/userDetail-blog";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/upload/blog" element={<UploadBlog />} />
           <Route path="/upload/video" element={<UploadVideo />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/detail" element={<UserBlogDetail />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>

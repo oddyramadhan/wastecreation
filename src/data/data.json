@@ -3,7 +3,7 @@
     {
       "user": "David Jhonson",
       "date": "Feb 25",
-      "href": "#",
+      "href": "/explore/blog",
       "image": "/rsrcs/gallery1.jpg",
       "type": "blog",
       "popular": 1,
@@ -13,7 +13,7 @@
     {
       "user": "Sarah Beneli",
       "date": "Jan 20",
-      "href": "#",
+      "href": "/explore/blog",
       "image": "/rsrcs/gallery2.jpg",
       "type": "blog",
       "popular": 3,
@@ -23,7 +23,7 @@
     {
       "user": "Havanna Liem",
       "date": "July 10",
-      "href": "#",
+      "href": "/explore/blog",
       "image": "/rsrcs/gallery3.png",
       "type": "blog",
       "popular": 4,
@@ -33,7 +33,7 @@
     {
       "user": "Ilham God",
       "date": " Oct 5",
-      "href": "#",
+      "href": "/explore/blog",
       "image": "/rsrcs/gallery4.jpg",
       "type": "blog",
       "popular": 2,
@@ -43,8 +43,9 @@
     {
       "user": "David Jhonson",
       "date": "Feb 25",
-      "href": "#",
-      "image": "/rsrcs/gallery11.jpg",
+      "href": "/explore/video",
+      "image": "https://i.ytimg.com/vi/_wMLSBai1Do/maxresdefault.jpg",
+      "url": "https://www.youtube.com/embed/_wMLSBai1Do",
       "type": "video",
       "popular": 1,
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -53,8 +54,9 @@
     {
       "user": "Sarah Beneli",
       "date": "Jan 20",
-      "href": "#",
-      "image": "/rsrcs/gallery21.jpg",
+      "href": "/explore/video",
+      "image": "https://i.ytimg.com/vi/0ZLEJ8QXDrA/maxresdefault.jpg",
+      "url": "https://www.youtube.com/embed/0ZLEJ8QXDrA",
       "type": "video",
       "popular": 5,
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -63,8 +65,9 @@
     {
       "user": "Havanna Liem",
       "date": "July 10",
-      "href": "#",
-      "image": "/rsrcs/gallery31.png",
+      "href": "/explore/video",
+      "image": "https://i.ytimg.com/vi/A83xU6XWosk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/embed/A83xU6XWosk",
       "type": "video",
       "popular": 3,
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -73,8 +76,9 @@
     {
       "user": "Ilham God",
       "date": " Oct 5",
-      "href": "#",
-      "image": "/rsrcs/gallery41.jpg",
+      "href": "/explore/video",
+      "image": "https://i.ytimg.com/vi/K-zOIPZ3RXk/maxresdefault.jpg",
+      "url": "https://www.youtube.com/embed/K-zOIPZ3RXk",
       "type": "video",
       "popular": 8,
       "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
