@@ -1,44 +1,54 @@
 {
   "data": [
     {
+      "id": 1,
       "user": "David Jhonson",
       "date": "Feb 25",
       "href": "/explore/blog",
-      "image": "/rsrcs/gallery1.jpg",
+      "image": "/rsrcs/galery1.jpg",
       "type": "blog",
       "popular": 1,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Changing Plastic Bottles for Watering Plants.",
+      "desc": "Some people may choose to spend their money to buy flower sprinklers made of plastic. In fact, you can actually change the plastic bottles you have at home to water plants.",
+      "desc1": "The method is easy and does not cost much. Make sure the plastic bottles are not filled with anything. Then, make some holes in the lid. Voila, you've got a simple plant sprinkler. If necessary, remove the label attached to the plastic bottle. That way, neighbors won't think you're weird for pouring detergent."
     },
     {
+      "id": 2,
       "user": "Sarah Beneli",
       "date": "Jan 20",
       "href": "/explore/blog",
       "image": "/rsrcs/gallery2.jpg",
       "type": "blog",
       "popular": 3,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "How to make a unique plastic bag from plastic.",
+      "desc": "In addition to plastic which is the basic material, of course we need such supporting materials and tools to make coffee wrappers into plastic bags. Let's prepare the materials & tools first:Wrap as much plastic as possible.- Scissor.- Needle.- Sewing thread.- Furing (plain cloth).- Ruler.- Zipper / button clothes.",
+      "desc1": "Remove both bottom & top so that both sides are exposed. After that cut the coffee wrap that has been split, and finally into two parts. Start folding the coffee packets that have been cut, one by one you can use anything until you see the silver inside of the coffee packet. It could also be by letting the wrapper cover clearly visible.",
+      "desc2": "Next fold the end of the side with a diameter of 1 cm inward. So the pack of Kapal Apai coffee which was 10 packs will become 20 packs. Next, start weaving the coffee packets one by one until you see a woven diamond-like shape. Care should be taken to form a vertical angle to the top so that it can be made into webbing pointing upwards. This rarity must be done because otherwise it will only be not flat and the result of the bag will not be beautiful. When the webbing has been calculated enough for the length and width of your bag, then the next step is to make enough webbing.",
+      "desc3": "Then you cover the inside using the furing cloth that we have provided earlier, because the bag made of coffee wrap will not be too strong to load or lift a rather heavy load. Then make a rope or you can use a used bag strap that no longer has a body. And sew it with sewing needle and thread too. Now! Don't forget to close the bag, according to your taste, but maybe this time we'll just use a zipper."
     },
     {
+      "id": 3,
       "user": "Havanna Liem",
       "date": "July 10",
       "href": "/explore/blog",
-      "image": "/rsrcs/gallery3.png",
+      "image": "/rsrcs/gallery3.jpg",
       "type": "blog",
       "popular": 4,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Mirror frame from paper waste.",
+      "desc": "Maybe this method has not been thought about much so that it could be your chance to get started. The newspaper material you prepare depends on how big the mirror frame you want. The materials that you must prepare in advance include: used newspapers or magazines, glue / adhesive, scissors, mirrors.",
+      "desc1": "How to make a mirror frame from an old newspaper: First, prepare the materials that we have mentioned above. Then you have to cut the newspaper to lengthwise. You roll the newspaper until it looks like a straw. You combine the newspaper rolls one by one using glue or adhesive as you wish. The next step is the assembly process. You can string newspaper rolls around the mirror. Make sure your newspaper roll matches the size of the mirror. Now the mirror frame from the old newspaper is ready to be exhibited."
     },
     {
+      "id": 4,
       "user": "Ilham God",
       "date": " Oct 5",
       "href": "/explore/blog",
       "image": "/rsrcs/gallery4.jpg",
       "type": "blog",
       "popular": 2,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Pencil holder from plastic waste.",
+      "desc": "This method is very useful because you no longer need to buy a container or stationery holder because you can make it yourself and can even decorate it to your liking. For the materials you must prepare, namely: used newspapers, wood glue, used cans / bottles, scissors, stationery, rope.",
+      "desc1": "The steps are as follows: Prepare used bottles or cans. You attach the newspaper to the used bottle or can and glue it using glue. Make sure that you glue it firmly so that later the paper does not come off easily. You trim it using a rope. The trick is to wrap it around the pencil case. You just put your pencil or stationery there."
     },
     {
       "user": "David Jhonson",
@@ -48,8 +58,7 @@
       "url": "https://www.youtube.com/embed/_wMLSBai1Do",
       "type": "video",
       "popular": 1,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Best out of waste craft ideas/waste material craft idea/how to make flower vase from waste materials"
     },
     {
       "user": "Sarah Beneli",
@@ -59,8 +68,7 @@
       "url": "https://www.youtube.com/embed/0ZLEJ8QXDrA",
       "type": "video",
       "popular": 5,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Empty plastic bottle craft idea | best out of waste | plastic bottle reuse idea | best diy"
     },
     {
       "user": "Havanna Liem",
@@ -70,8 +78,7 @@
       "url": "https://www.youtube.com/embed/A83xU6XWosk",
       "type": "video",
       "popular": 3,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "Coconut shell Pen stand/Coconut shell craft ideas/coconut shell craft/best out of waste craft ideas"
     },
     {
       "user": "Ilham God",
@@ -81,8 +88,7 @@
       "url": "https://www.youtube.com/embed/K-zOIPZ3RXk",
       "type": "video",
       "popular": 8,
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      "title": "How To Make cute Trash bin From Cardboard || Waste Material Craft Ideas"
     }
   ]
 }
