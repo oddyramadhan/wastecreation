@@ -41,7 +41,7 @@ export default function CardBlog() {
                   </p>
                 </div>
                 <h2 className="mt-4 text-lg font-medium sm:text-xl">
-                  <NavLink to="detail">
+                  <NavLink to={`detail/${item.id}`}>
                     <p className="hover:underline">{item.title}</p>
                   </NavLink>
                 </h2>

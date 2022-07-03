@@ -24,7 +24,7 @@ function App() {
           <Route path="/explore" element={<Explore />} />
           <Route path="/explore/blog" element={<Blog />} />
           <Route path="/explore/video" element={<Video />} />
-          <Route path="/explore/blog/detail" element={<BlogDetail />} />
+          <Route path="/explore/blog/detail/:id" element={<BlogDetail />} />
           <Route path="/upload" element={<Upload />} />
           <Route path="/upload/blog" element={<UploadBlog />} />
           <Route path="/upload/video" element={<UploadVideo />} />

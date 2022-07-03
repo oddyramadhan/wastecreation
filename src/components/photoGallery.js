@@ -14,13 +14,13 @@ export default function PhotoGallery() {
     swipeToSlide: true,
   };
   return (
-    <div>
+    <div className="px-4">
       <div className="md:flex items-center max-w-5xl mx-auto text-left">
-        <div>
+        <div className="mx-2">
           <h2 className="text-2xl font-bold sm:text-3xl py-4">Photo Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-            mattis ipsum turpis elit elit scelerisque egestas mu.
+            Lets share your creativity to the world and see how they are
+            inspired by it.
           </p>
         </div>
         <div className="md:w-3/4">
@@ -28,7 +28,7 @@ export default function PhotoGallery() {
             <div className="p-4">
               <img
                 className="aspect-9/16 object-cover"
-                src="/rsrcs/gallery1.jpg"
+                src="/rsrcs/gallery0.jpg"
                 alt=""
               />
             </div>
@@ -42,7 +42,7 @@ export default function PhotoGallery() {
             <div className="p-4">
               <img
                 className="aspect-9/16 object-cover"
-                src="/rsrcs/gallery3.png"
+                src="/rsrcs/gallery3.jpg"
                 alt=""
               />
             </div>

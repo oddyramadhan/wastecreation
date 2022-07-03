@@ -22,11 +22,11 @@ export default function Banner() {
           </h1>
 
           <p className="max-w-lg mt-4 sm:leading-relaxed sm:text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+            Reuse, Reduce, Recycle the best part about recycling is that it
+            saves the earth
           </p>
 
-          <div className="flex flex-wrap gap-4 mt-8 text-center">
+          <div className="flex justify-center sm:justify-start flex-wrap gap-4 mt-8 text-center">
             <NavLink to="/explore">
               <p className="block w-full px-10 py-3 text-sm font-medium text-black rounded-[50px] shadow bg-[#D3A968] sm:w-auto focus:outline-none focus:ring">
                 Explore Now

@@ -10,7 +10,7 @@ export default function CardVideo() {
           <div key={index}>
             <div className="max-h-[400px] max-w-[816px] border-2">
               <iframe
-                className="h-[400px] w-[816px]"
+                className="sm:h-[400px] sm:w-[624px] md:h-[400px] md:w-[684px] lg:h-[400px] lg:w-[816px] h-[200px] w-[362px]"
                 src={item.url}
                 frameBorder="0"
                 allow="autoplay; encrypted-media"
