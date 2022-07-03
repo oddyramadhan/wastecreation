@@ -6,8 +6,7 @@ export default function ExploreHome() {
     <section>
       <div className="px-4 py-20 mx-auto max-w-5xl sm:px-6 lg:px-8">
         <p className="text-2xl font-bold ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor
+          Find Your Best Solutions to Save The World
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 p-8 gap-5">
           <div className="relative z-10">
